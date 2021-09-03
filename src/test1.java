@@ -9,14 +9,14 @@ import org.testng.annotations.Test;
 
 public class test1 {
 
-	//COunt the number of names starting with alphabet A in list
+	//Count the number of names starting with alphabet A in list
 	@Test
 	public void regular()
 	{
 	ArrayList<String> names=new ArrayList<String>();
-	names.add("Abhijeet");
+	names.add("Abhi");
 	names.add("Don");
-	names.add("Alekhya");
+	names.add("Ale");
 	names.add("Adam");
 	names.add("Ram");
 	int count=0;
@@ -35,5 +35,14 @@ public class test1 {
 		
 	}
 
+	
+	@Test
+	public void addNum() {
+		int a=10, b=10, sum=0;
+		sum= a+b;
+		System.out.println(sum);
+	}
+	
+	
 }
 
